@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Title text style -->
+    <style name="Text.PokemonTitle" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <!-- Name text style -->
+    <style name="Text.PokemonName" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- ID text style -->
+    <style name="Text.PokemonId" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+</resources>
